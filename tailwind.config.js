@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+      extend: {
+          colors: {
+            'bike-primary-bg' :'#E76F511A',
+
+        }
+    },
   },
   plugins: [],
 }
